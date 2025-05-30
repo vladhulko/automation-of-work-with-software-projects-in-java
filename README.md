@@ -1,1 +1,1 @@
-# automation-of-work-with-software-projects-in-java
+Vladyslav Hulko Java Automation HW
