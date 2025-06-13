@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'java-gradle-plugin'
+}
+
+dependencies {
+    implementation localGroovy()
+    implementation gradleApi()
+}
+
+gradlePlugin {
+    plugins {
+        codeGeneratorPlugin {
+            id = 'com.example.codegenerator'
+            implementationClass = 'com.example.codegenerator.CodeGeneratorPlugin'
+        }
+    }
+}

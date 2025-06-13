@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'com.example.codegenerator'
+}
+
+dependencies {
+    implementation project(':core')
+    implementation project(':utilities')
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir "${buildDir}/generated-src"
+        }
+    }
+}

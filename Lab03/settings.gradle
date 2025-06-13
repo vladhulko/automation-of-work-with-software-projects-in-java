@@ -1,0 +1,15 @@
+pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == 'com.example.codegenerator') {
+                useModule('Lab03:code-generator-plugin-groovy:1.0.0')
+            }
+        }
+    }
+}
+
+rootProject.name = 'Lab03'
+include 'code-generator-plugin-groovy'
+include 'app'
+include 'core'
+include 'utilities'
