@@ -5,6 +5,7 @@ public class Main {
         return "Hello from Lab06!";
     }
 
+    //some comments
     public static void main(String[] args) {
         System.out.println(getGreeting());
     }
