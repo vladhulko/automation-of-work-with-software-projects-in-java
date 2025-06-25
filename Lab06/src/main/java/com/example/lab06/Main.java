@@ -1,4 +1,5 @@
 package com.example.lab06;
+import java.util.Scanner;
 
 public class Main {
     public static String getGreeting() {
